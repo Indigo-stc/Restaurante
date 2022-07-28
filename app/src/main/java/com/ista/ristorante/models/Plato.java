@@ -76,10 +76,8 @@ public class Plato {
 
     @Override
     public String toString() {
-        return "Plato{" +
-                "nombre='" + nombre + '\'' +
+        return "nombre='" + nombre + '\'' +
                 ", tipo='" + tipo + '\'' +
-                ", pvp='" + pvp + '\'' +
-                '}';
+                ", pvp='" + pvp + '\'';
     }
 }
